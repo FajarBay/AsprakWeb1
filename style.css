@@ -1,0 +1,43 @@
+/* Author : Fajar Bayu Aji
+Type : CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    height: 60px;
+    width: 100%;
+    box-shadow: whitesmoke 10px 5px 10px 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-logo {
+    float: left;
+    height: 60px;
+}
+
+section {
+    padding: 50px 0;
+}
